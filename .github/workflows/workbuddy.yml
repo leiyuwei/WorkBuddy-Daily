@@ -3,9 +3,9 @@ name: 🌱 WorkBuddy Daily
 on:
   schedule:
     # 北京时间 07:00 / 12:00 / 23:30（GitHub cron 用 UTC，北京时间 = UTC+8）
-    - cron: "0 23 * * *"     # 07:00
-    - cron: "0 4 * * *"      # 12:00
-    - cron: "30 15 * * *"    # 23:30
+    - cron: "44 23 * * *"     # 07:00
+    - cron: "11 8 * * *"      # 12:00
+    - cron: "33 14 * * *"    # 23:30
   workflow_dispatch:          # 支持手动触发
 
 permissions:
